@@ -1,0 +1,83 @@
+{
+  "arch": "vit",
+  "seed": 37,
+  "val_loss_lock": 0.547,
+  "lock_epoch_used": 57,
+  "rows": [
+    {
+      "activation": "swish",
+      "epoch": 57.0,
+      "train_loss": 0.5234873711302638,
+      "train_acc": 0.7379019954842253,
+      "val_loss": 0.5771877065882388,
+      "val_acc": 0.7183138706921105,
+      "epoch_sec": 21.50467755412683,
+      "val_cat_acc": 0.7296990346394094,
+      "val_dog_acc": 0.7068571428571429,
+      "val_precision": 0.7221249270286048,
+      "val_recall": 0.7068571428571429,
+      "val_f1": 0.714409471556454,
+      "val_auroc": 0.0
+    },
+    {
+      "activation": "hybrid_0.25",
+      "epoch": 57.0,
+      "train_loss": 0.5200043009265475,
+      "train_acc": 0.7379019954842253,
+      "val_loss": 0.5467785916685617,
+      "val_acc": 0.7174594132725719,
+      "epoch_sec": 19.59278422407806,
+      "val_cat_acc": 0.8137421919363997,
+      "val_dog_acc": 0.6205714285714286,
+      "val_precision": 0.768033946251768,
+      "val_recall": 0.6205714285714286,
+      "val_f1": 0.6864728192161821,
+      "val_auroc": 0.0
+    },
+    {
+      "activation": "hybrid_0.5",
+      "epoch": 57.0,
+      "train_loss": 0.5199031612913743,
+      "train_acc": 0.7409531946054799,
+      "val_loss": 0.5717820872764104,
+      "val_acc": 0.7368271147821134,
+      "epoch_sec": 20.340341805946082,
+      "val_cat_acc": 0.7257240204429302,
+      "val_dog_acc": 0.748,
+      "val_precision": 0.73046875,
+      "val_recall": 0.748,
+      "val_f1": 0.7391304347826088,
+      "val_auroc": 0.0
+    },
+    {
+      "activation": "prelu",
+      "epoch": 57.0,
+      "train_loss": 0.5274649757448369,
+      "train_acc": 0.7343626045035699,
+      "val_loss": 0.5558039693199512,
+      "val_acc": 0.7311307319851894,
+      "epoch_sec": 18.33024290483445,
+      "val_cat_acc": 0.7938671209540034,
+      "val_dog_acc": 0.668,
+      "val_precision": 0.7630548302872062,
+      "val_recall": 0.668,
+      "val_f1": 0.7123705057891531,
+      "val_auroc": 0.0
+    },
+    {
+      "activation": "mish",
+      "epoch": 57.0,
+      "train_loss": 0.5437760273467602,
+      "train_acc": 0.7200219686336731,
+      "val_loss": 0.6032527322885963,
+      "val_acc": 0.707490743377955,
+      "epoch_sec": 19.408986188005656,
+      "val_cat_acc": 0.8472458830210108,
+      "val_dog_acc": 0.5668571428571428,
+      "val_precision": 0.7866772402854877,
+      "val_recall": 0.5668571428571428,
+      "val_f1": 0.6589173032215211,
+      "val_auroc": 0.0
+    }
+  ]
+}

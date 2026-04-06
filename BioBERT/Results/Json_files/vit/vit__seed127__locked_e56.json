@@ -1,0 +1,23 @@
+{
+  "arch": "vit",
+  "seed": 127,
+  "val_loss_lock": 0.547,
+  "lock_epoch_used": 56,
+  "rows": [
+    {
+      "activation": "gelu",
+      "epoch": 56.0,
+      "train_loss": 0.5174821234283347,
+      "train_acc": 0.7430890339903582,
+      "val_loss": 0.5408016839909506,
+      "val_acc": 0.7285673597265736,
+      "epoch_sec": 39.09550951095298,
+      "val_cat_acc": 0.6746166950596252,
+      "val_dog_acc": 0.7828571428571428,
+      "val_precision": 0.7050952135872363,
+      "val_recall": 0.7828571428571428,
+      "val_f1": 0.7419442187923098,
+      "val_auroc": 0.0
+    }
+  ]
+}

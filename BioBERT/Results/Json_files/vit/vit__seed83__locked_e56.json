@@ -1,0 +1,38 @@
+{
+  "arch": "vit",
+  "seed": 83,
+  "val_loss_lock": 0.547,
+  "lock_epoch_used": 56,
+  "rows": [
+    {
+      "activation": "prelu",
+      "epoch": 56.0,
+      "train_loss": 0.530549107490788,
+      "train_acc": 0.7274668944895344,
+      "val_loss": 0.5578682398021951,
+      "val_acc": 0.722016519510111,
+      "epoch_sec": 42.23707759613171,
+      "val_cat_acc": 0.7876206700738216,
+      "val_dog_acc": 0.656,
+      "val_precision": 0.7542706964520368,
+      "val_recall": 0.656,
+      "val_f1": 0.7017114914425429,
+      "val_auroc": 0.0
+    },
+    {
+      "activation": "mish",
+      "epoch": 56.0,
+      "train_loss": 0.5233871962332032,
+      "train_acc": 0.7375358515896747,
+      "val_loss": 0.5423286334125788,
+      "val_acc": 0.7359726573625748,
+      "epoch_sec": 46.82379687600769,
+      "val_cat_acc": 0.7910278250993753,
+      "val_dog_acc": 0.6805714285714286,
+      "val_precision": 0.763951250801796,
+      "val_recall": 0.6805714285714286,
+      "val_f1": 0.7198549410698096,
+      "val_auroc": 0.0
+    }
+  ]
+}
